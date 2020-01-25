@@ -37,4 +37,6 @@ def find_a(xyz)
   xyz.select {|word| word.start_with?("a")}
 end 
 
-def sum_array
+def sum_array(xyz)
+  xyz.inject {|sum, num| sum + num}
+end 
