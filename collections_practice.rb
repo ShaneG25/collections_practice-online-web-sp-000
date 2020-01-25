@@ -25,5 +25,5 @@ def reverse_array(int)
 end 
 
 def kesha_maker(xyz)
-  
+  newxyz = []
 end 
