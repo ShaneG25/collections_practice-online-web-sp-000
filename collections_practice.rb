@@ -13,5 +13,8 @@ def sort_array_char_count(xyz)
 end 
 
 def swap_elements(xyz)
-  swap1
+  swap1 = xyz[1]
+  swap2 = xyz[2]
+  xyz[1] = swap1
+  xyz[2] = swap2
 end
