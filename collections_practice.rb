@@ -28,5 +28,7 @@ def kesha_maker(xyz)
   newXyz = []
   xyz.each do |word|
     word[2] = "$"
-    
+    newXyz << word
+  end 
+  return xyz 
 end 
