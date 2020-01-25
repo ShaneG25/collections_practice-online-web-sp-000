@@ -15,6 +15,7 @@ end
 def swap_elements(xyz)
   swap1 = xyz[1]
   swap2 = xyz[2]
-  xyz[1] = swap1
-  xyz[2] = swap2
+  xyz[1] = swap2
+  xyz[2] = swap1
+  return xyz
 end
