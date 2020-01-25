@@ -13,5 +13,5 @@ def sort_array_char_count(xyz)
 end 
 
 def swap_elements(xyz)
-  
+  swap1
 end
