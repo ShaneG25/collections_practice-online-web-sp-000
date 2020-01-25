@@ -40,3 +40,7 @@ end
 def sum_array(xyz)
   xyz.inject {|sum, num| sum + num}
 end 
+
+def add_s(xyz)
+  
+end 
