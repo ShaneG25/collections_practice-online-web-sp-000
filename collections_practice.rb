@@ -44,5 +44,9 @@ end
 def add_s(xyz)
   xyz.each_with_index.collect do |word, index|
     if (index == 1)
-      word == 
+      word = word 
+    else 
+      word += "s"
+    end 
+  end 
 end 
