@@ -3,4 +3,5 @@ def sort_array_asc(xyz)
 end 
 
 def sort_array_desc(xyz)
-  
+  xyz.sort do |a, b| 
+    b <=> a 
