@@ -43,5 +43,6 @@ end
 
 def add_s(xyz)
   xyz.each_with_index.collect do |word, index|
-    
+    if (index == 1)
+      
 end 
