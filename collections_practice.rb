@@ -26,5 +26,6 @@ end
 
 def kesha_maker(xyz)
   newXyz = []
-  
+  xyz.each do |word|
+    
 end 
