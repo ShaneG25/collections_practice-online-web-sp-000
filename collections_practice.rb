@@ -42,5 +42,6 @@ def sum_array(xyz)
 end 
 
 def add_s(xyz)
-  xyz.each_with_index.collect 
+  xyz.each_with_index.collect do |word, index|
+    
 end 
