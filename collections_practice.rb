@@ -32,3 +32,7 @@ def kesha_maker(xyz)
   end 
   return xyz 
 end 
+
+def find_a(xyz)
+  
+end 
