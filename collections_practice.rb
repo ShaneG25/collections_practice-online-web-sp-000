@@ -42,5 +42,5 @@ def sum_array(xyz)
 end 
 
 def add_s(xyz)
-  
+  xyz.each_with_index.collect 
 end 
