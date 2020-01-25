@@ -7,3 +7,6 @@ def sort_array_desc(xyz)
     b <=> a 
   end 
 end 
+
+def sort_array_char_count(xyz)
+  xyz.sort
